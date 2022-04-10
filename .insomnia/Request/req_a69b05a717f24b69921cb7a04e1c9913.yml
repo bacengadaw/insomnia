@@ -1,0 +1,36 @@
+_id: req_a69b05a717f24b69921cb7a04e1c9913
+type: Request
+parentId: fld_af8dc818a07f4df2bd3ce6059535dd0f
+modified: 1649063999884
+created: 1646999537835
+url: "{{ _.URL_BACKEND }}/laboratorium/v1/hasil-lab-wynacom/data-wynacom"
+name: informasi pasien lab wynacom
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_a64b9dcb74c84cd4b5637674589b49bb
+    name: id
+    value: "2000"
+    description: ""
+headers:
+  - id: pair_325041dc8fa14961953d22c100788019
+    name: X-Owner
+    value: "{{ _['X-OWNER'] }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiYWNjZXNzX3Rva2VuIjoiMTAwLX\
+    Rva2VuIiwianRpIjoiYjVkYzVmMGYwMGY5ZTY5Y2Y2YjNhMGJiZWRkOTNmNjdmMjhhYjQ1OWEzO\
+    Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
+    YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
+    R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
+metaSortKey: -1646517183249.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_62343f325f884eaea730d34bc016efdf
+type: Request
+parentId: fld_671d826b38794d63a30e568c342dd587
+modified: 1649063970149
+created: 1648823508677
+url: "{{ _.URL_BACKEND }}/master/v1/kelas-pelayanan"
+name: get data
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_325041dc8fa14961953d22c100788019
+    name: X-Owner
+    value: "{{ _['X-OWNER'] }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiYWNjZXNzX3Rva2VuIjoiMTAwLX\
+    Rva2VuIiwianRpIjoiYjVkYzVmMGYwMGY5ZTY5Y2Y2YjNhMGJiZWRkOTNmNjdmMjhhYjQ1OWEzO\
+    Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
+    YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
+    R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
+metaSortKey: -1647218133566.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

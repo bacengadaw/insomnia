@@ -1,0 +1,36 @@
+_id: req_39a87413653e41d2b9dec464f4dfdd3a
+type: Request
+parentId: fld_c7029521cf114c309ff3278bafcab372
+modified: 1649573110418
+created: 1647267802506
+url: http://192.168.202.160:8062/on/tindakanMobileMhg/create
+name: Sercon
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"daftartindakan_id":2806,"kategoritindakan_id":1,"kelompoktindakan_id":17,"groupinacbg_id":1,"jeniskegiatantindakan_id":1,"daftartindakan_kode":"Tindakan
+    operasi","daftartindakan_nama":"Tindakan
+    operasi","tindakanmedis_nama":null,"daftartindakan_namalainnya":"Tindakan
+    operasi","daftartindakan_katakunci":null,"additional_data":null,"created_date":"2022-03-16
+    20:57:39","created_by":1,"modified_count":0,"last_modified_date":null,"last_modified_by":null,"is_deleted":false,"is_active":true,"deleted_date":null,"deleted_by":null,"catatan":"Tindakan
+    operasi","is_akomodasi":false,"is_konsultasi":false,"servicecategory_id":null,"servicegroup_id":null,"admin_charge":true}
+    '
+parameters: []
+headers:
+  - id: pair_d780db51be704a90bd2db09d1a82ab98
+    name: X-Behaviour
+    value: blocking
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_12d70b42a7fc41c589d16370b2d4b6f4
+authentication: {}
+metaSortKey: -1647352272863.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

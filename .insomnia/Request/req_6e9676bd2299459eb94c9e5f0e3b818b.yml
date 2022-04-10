@@ -1,0 +1,32 @@
+_id: req_6e9676bd2299459eb94c9e5f0e3b818b
+type: Request
+parentId: fld_ad2579466a4144748d36e983643eb655
+modified: 1648823501168
+created: 1646755234218
+url: "{{ _.URL_BACKEND }}/kasir/v1/lap-cara-bayar"
+name: lap cara bayar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_325041dc8fa14961953d22c100788019
+    name: X-Owner
+    value: "{{ _['X-OWNER'] }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiYWNjZXNzX3Rva2VuIjoiMTAwLX\
+    Rva2VuIiwianRpIjoiYjVkYzVmMGYwMGY5ZTY5Y2Y2YjNhMGJiZWRkOTNmNjdmMjhhYjQ1OWEzO\
+    Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
+    YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
+    R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
+metaSortKey: -1646517183274.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
