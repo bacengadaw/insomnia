@@ -1,14 +1,18 @@
-_id: req_534fab0e07f94ec7b38f26cdc38cd882
+_id: req_bf8899394a63458cb56f5322402c900d
 type: Request
-parentId: fld_bfaeee2754ec4e86894b7e3756135ec9
-modified: 1649735630881
-created: 1646810791912
-url: "{{ _.URL_BACKEND }}/mcu/v1/informasi-pasien-mcu"
-name: Informasi pasien mcu
+parentId: fld_7e6c41c6a9c944c78c3495222699cd0a
+modified: 1649786340828
+created: 1649735659212
+url: "{{ _.URL_BACKEND }}/rajal/v1/cppt"
+name: Cppt
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_a64b9dcb74c84cd4b5637674589b49bb
+    name: pendaftaran_id
+    value: "6807"
+    description: ""
 headers:
   - id: pair_325041dc8fa14961953d22c100788019
     name: X-Owner
@@ -22,7 +26,7 @@ authentication:
     Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
     YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
     R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
-metaSortKey: -1646517183224.75
+metaSortKey: -1646517183237.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

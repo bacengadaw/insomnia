@@ -1,7 +1,7 @@
 _id: req_a69b05a717f24b69921cb7a04e1c9913
 type: Request
 parentId: fld_af8dc818a07f4df2bd3ce6059535dd0f
-modified: 1649063999884
+modified: 1649735649299
 created: 1646999537835
 url: "{{ _.URL_BACKEND }}/laboratorium/v1/hasil-lab-wynacom/data-wynacom"
 name: informasi pasien lab wynacom

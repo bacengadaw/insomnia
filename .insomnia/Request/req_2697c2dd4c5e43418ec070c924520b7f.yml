@@ -1,14 +1,9 @@
 _id: req_2697c2dd4c5e43418ec070c924520b7f
 type: Request
 parentId: fld_6663fcc94eb54a3dadc86226370d5aba
-modified: 1646999498455
+modified: 1649573201736
 created: 1646817811110
-url: "{{ _.URL_BACKEND
-  }}/pendaftaran/v1/inf-pasien/mcu?page=1&per-page=10&order=tgl_pendaftaran&q=&\
-  filters=tgl_pendaftaran%2Cstatus_periksa_id%2Cnosep%2Cpetugas%2Ccarabayar_id%\
-  2Cpenjamin_id%2Cno_pendaftaran%2Cno_rekam_medik%2Cnama_pasien&advanced-filter\
-  %5Btgl_pendaftaran_awal%5D=2022-01-09+00%3A00%3A00&advanced-filter%5Btgl_pend\
-  aftaran_akhir%5D=2022-01-31%5D23%3A59%3A59"
+url: "{{ _.URL_BACKEND }}/pendaftaran/v1/inf-pasien"
 name: Informasi Pasien
 description: ""
 method: GET
