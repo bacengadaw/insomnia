@@ -1,10 +1,10 @@
-_id: req_bf8899394a63458cb56f5322402c900d
+_id: req_fffe42f46a0540b0885e0b9107558552
 type: Request
-parentId: fld_7e6c41c6a9c944c78c3495222699cd0a
-modified: 1649831582505
-created: 1649735659212
-url: "{{ _.URL_BACKEND }}/rajal/v1/cppt"
-name: Cppt
+parentId: fld_6cf491d13060432e8242cf72d33511a6
+modified: 1649850845279
+created: 1649820622973
+url: "{{ _.URL_BACKEND }}/ranap/v1/inf-data-kamar/get-data-tempat-tidur-v2"
+name: Get Data Kamar
 description: ""
 method: GET
 body: {}
@@ -26,7 +26,7 @@ authentication:
     Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
     YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
     R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
-metaSortKey: -1646517183237.25
+metaSortKey: -1646517183231
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
