@@ -1,7 +1,7 @@
 _id: req_fffe42f46a0540b0885e0b9107558552
 type: Request
 parentId: fld_6cf491d13060432e8242cf72d33511a6
-modified: 1649850845279
+modified: 1654661071816
 created: 1649820622973
 url: "{{ _.URL_BACKEND }}/ranap/v1/inf-data-kamar/get-data-tempat-tidur-v2"
 name: Get Data Kamar

@@ -1,10 +1,10 @@
-_id: req_bf8899394a63458cb56f5322402c900d
+_id: req_a495d79c96ad40019b738d5017de6705
 type: Request
-parentId: fld_7e6c41c6a9c944c78c3495222699cd0a
-modified: 1654661199214
-created: 1649735659212
-url: "{{ _.URL_BACKEND }}/rajal/v1/cppt"
-name: Cppt
+parentId: wrk_348595402b0a4bcbb8ffd61097486be3
+modified: 1654998282175
+created: 1654661212070
+url: "{{ _.URL_BACKEND_KRAMAT }}/dcms?action=clear-cache-by-key&key=profile-rs"
+name: clear chache by key
 description: ""
 method: GET
 body: {}
@@ -26,7 +26,7 @@ authentication:
     Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
     YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
     R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
-metaSortKey: -1646517183237.25
+metaSortKey: -1649838883938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

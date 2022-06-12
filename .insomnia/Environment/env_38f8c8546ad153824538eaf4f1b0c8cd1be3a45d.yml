@@ -1,16 +1,20 @@
 _id: env_38f8c8546ad153824538eaf4f1b0c8cd1be3a45d
 type: Environment
 parentId: wrk_348595402b0a4bcbb8ffd61097486be3
-modified: 1649754697294
+modified: 1654661368422
 created: 1646517122916
 name: Base Environment
 data:
   URL_BACKEND: http://localhost:7013/
+  URL_STAGING_PRAMBANAN: https://backend.stag.prambanan-mhkn.dhealth.co.id/
+  URL_BACKEND_KRAMAT: http://192.168.2.8:7001/
   X-OWNER: YmRnLXNpbXJzLWRvY28tZGV2ZWxvcG1lbnQ
   BEARER: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiYWNjZXNzX3Rva2VuIjoiMTAwLXRva2VuIiwianRpIjoiYjVkYzVmMGYwMGY5ZTY5Y2Y2YjNhMGJiZWRkOTNmNjdmMjhhYjQ1OWEzODc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9sYWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo
 dataPropertyOrder:
   "&":
     - URL_BACKEND
+    - URL_STAGING_PRAMBANAN
+    - URL_BACKEND_KRAMAT
     - X-OWNER
     - BEARER
 color: null

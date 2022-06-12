@@ -1,0 +1,28 @@
+_id: req_3dabc6cee13b4beaa2741d63a75157b1
+type: Request
+parentId: fld_6663fcc94eb54a3dadc86226370d5aba
+modified: 1654659620645
+created: 1654575606251
+url: "{{ _.URL_BACKEND
+  }}/pendaftaran/v1/rujukan-bpjs/print-rujukan?rujukanbpjs_id=1&bpjs_id=52"
+name: Get Print Rujukan
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_325041dc8fa14961953d22c100788019
+    name: X-Owner
+    value: "{{ _['X-OWNER'] }}"
+    description: ""
+authentication:
+  type: bearer
+  token: " {{ _.BEARER }}"
+metaSortKey: -1646817778252
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

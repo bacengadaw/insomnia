@@ -1,7 +1,7 @@
 _id: req_6e9676bd2299459eb94c9e5f0e3b818b
 type: Request
 parentId: fld_ad2579466a4144748d36e983643eb655
-modified: 1648823501168
+modified: 1654661069421
 created: 1646755234218
 url: "{{ _.URL_BACKEND }}/kasir/v1/lap-cara-bayar"
 name: lap cara bayar
