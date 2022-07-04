@@ -1,18 +1,14 @@
-_id: req_a69b05a717f24b69921cb7a04e1c9913
+_id: req_c11a17b47307483183e12259b3a333c1
 type: Request
-parentId: fld_af8dc818a07f4df2bd3ce6059535dd0f
-modified: 1655797970953
-created: 1646999537835
-url: "{{ _.URL_BACKEND }}/laboratorium/v1/hasil-lab-wynacom/data-wynacom"
-name: informasi pasien lab wynacom
+parentId: fld_6663fcc94eb54a3dadc86226370d5aba
+modified: 1655797175743
+created: 1655088547120
+url: "{{ _.URL_BACKEND }}/pendaftaran/v1/allow-bpjs"
+name: cari sep
 description: ""
 method: GET
 body: {}
-parameters:
-  - id: pair_a64b9dcb74c84cd4b5637674589b49bb
-    name: id
-    value: "2000"
-    description: ""
+parameters: []
 headers:
   - id: pair_325041dc8fa14961953d22c100788019
     name: X-Owner
@@ -26,7 +22,7 @@ authentication:
     Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
     YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
     R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
-metaSortKey: -1646517183249.75
+metaSortKey: -1646817778277
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

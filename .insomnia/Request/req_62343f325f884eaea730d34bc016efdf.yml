@@ -1,7 +1,7 @@
 _id: req_62343f325f884eaea730d34bc016efdf
 type: Request
 parentId: fld_671d826b38794d63a30e568c342dd587
-modified: 1654661064768
+modified: 1655893859914
 created: 1648823508677
 url: "{{ _.URL_BACKEND }}/master/v1/kelas-pelayanan"
 name: get data

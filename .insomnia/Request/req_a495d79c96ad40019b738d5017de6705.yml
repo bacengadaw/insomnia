@@ -1,7 +1,7 @@
 _id: req_a495d79c96ad40019b738d5017de6705
 type: Request
-parentId: wrk_348595402b0a4bcbb8ffd61097486be3
-modified: 1654998282175
+parentId: fld_671d826b38794d63a30e568c342dd587
+modified: 1656908579303
 created: 1654661212070
 url: "{{ _.URL_BACKEND_KRAMAT }}/dcms?action=clear-cache-by-key&key=profile-rs"
 name: clear chache by key
@@ -26,7 +26,7 @@ authentication:
     Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
     YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
     R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
-metaSortKey: -1649838883938
+metaSortKey: -1647218133616.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

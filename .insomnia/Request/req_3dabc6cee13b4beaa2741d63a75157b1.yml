@@ -1,9 +1,11 @@
 _id: req_3dabc6cee13b4beaa2741d63a75157b1
 type: Request
 parentId: fld_6663fcc94eb54a3dadc86226370d5aba
-modified: 1654659620645
+modified: 1655088513045
 created: 1654575606251
 url: "{{ _.URL_BACKEND
+  }}/pendaftaran/v1/rujukan-bpjs/print-rujukan?rujukanbpjs_id=1&bpjs_id=52{{
+  _.URL_BACKEND
   }}/pendaftaran/v1/rujukan-bpjs/print-rujukan?rujukanbpjs_id=1&bpjs_id=52"
 name: Get Print Rujukan
 description: ""

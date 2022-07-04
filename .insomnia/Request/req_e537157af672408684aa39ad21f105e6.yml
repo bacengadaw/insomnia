@@ -1,9 +1,9 @@
-_id: req_a69b05a717f24b69921cb7a04e1c9913
+_id: req_e537157af672408684aa39ad21f105e6
 type: Request
-parentId: fld_af8dc818a07f4df2bd3ce6059535dd0f
-modified: 1655797970953
-created: 1646999537835
-url: "{{ _.URL_BACKEND }}/laboratorium/v1/hasil-lab-wynacom/data-wynacom"
+parentId: fld_7e6c41c6a9c944c78c3495222699cd0a
+modified: 1655871017682
+created: 1655797239859
+url: "{{ _.URL_BACKEND }}/rajal/v1/allow/get-dokter-jadwal"
 name: informasi pasien lab wynacom
 description: ""
 method: GET
@@ -26,7 +26,7 @@ authentication:
     Dc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9s\
     YWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.\
     R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo"
-metaSortKey: -1646517183249.75
+metaSortKey: -1646517183187.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
